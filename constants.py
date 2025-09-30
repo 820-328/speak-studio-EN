@@ -1,4 +1,4 @@
-APP_NAME = "生成AI英会話アプリ"
+APP_NAME = "Speak Stadio EN"
 
 
 # 難易度ごとのスタイル指示（プロンプトにインライン展開）
