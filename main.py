@@ -350,7 +350,7 @@ SENTENCES: List[ShadowSentence] = [
 # ==============================
 # Page setup & styles
 # ==============================
-st.set_page_config(page_title="SpeakStudio", layout="wide")
+st.set_page_config(page_title="SpeakStudio EN", layout="wide")
 
 # ★ モバイルで白文字化されないように、文字色を強制（!important）
 CSS_BLOCK = "\n".join(
