@@ -350,7 +350,7 @@ SENTENCES: List[ShadowSentence] = [
 # ==============================
 # Page setup & styles
 # ==============================
-st.set_page_config(page_title="SpeakStudio EN", layout="wide")
+st.set_page_config(page_title="SpeakStudio", layout="wide")
 
 # ★ モバイルで白文字化されないように、文字色を強制（!important）
 CSS_BLOCK = "\n".join(
@@ -374,7 +374,7 @@ CSS_BLOCK = "\n".join(
 st.markdown(CSS_BLOCK, unsafe_allow_html=True)
 
 # タイトルを一段小さい見出し（h2）で表示
-st.header("SpeakStudio")
+st.header("SpeakStudio EN")
 st.caption("Version: " + APP_VERSION)
 
 # （β）無しのラジオ項目
